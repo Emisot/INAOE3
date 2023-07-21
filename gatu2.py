@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 
 # Load data from file
 data = np.loadtxt('/home/emiliano/proyecto_INAOE/GATU/lux.csv', delimiter=',', skiprows=1)
+# Esto debe de tenerse mucho cuidado porque a veces da problemas
 
 # Extract time and lux values
 time = data[:, 0]
